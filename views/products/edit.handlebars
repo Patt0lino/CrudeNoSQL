@@ -1,0 +1,18 @@
+<form action="/products/update" method="post">
+
+<div class="form-control">
+    <h1>Editar dados</h1>
+    <p><input type="hidden" name="id" value="{{product._id}}"></p>
+
+    <p>Nome: <input type="text" name="name" value="{{product.name}}"></p>
+    <p>Preço: <input type="text" name="price" value="{{product.price}}"></p>
+    <p>Link imagem: <input type="text" name="image" value="{{product.image}}"></p>
+    <p>Descrição: <input type="text" name="description" value="{{product.description}}"></p> 
+
+    <input type="submit" value="Atualizar">
+
+</div>
+
+
+
+</form>
